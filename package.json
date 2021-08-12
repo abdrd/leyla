@@ -1,0 +1,32 @@
+{
+    "name": "leyla",
+    "version": "1.0.0",
+    "description": "",
+    "bin": {
+        "leyla": "./dist/leyla.js"
+    },
+    "main": "index.js",
+    "scripts": {
+        "install": "tsc",
+        "start": " node dist/leyla.js",
+        "ins": "npm run install && npm run start"
+    },
+    "keywords": [
+        "html",
+        "javascript",
+        "dom",
+        "querySelector",
+        "getElementById",
+        "cli",
+        "selector",
+        "auto select"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@types/chalk": "^2.2.0",
+        "@types/node": "^16.6.0",
+        "chalk": "^4.1.2",
+        "node-html-parser": "^4.1.3"
+    }
+}
