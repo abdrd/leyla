@@ -1,11 +1,11 @@
 {
     "name": "leyla",
-    "version": "1.0.0",
-    "description": "",
+    "version": "1.0.1",
+    "description": "a cli that automatically selects all the nodes with an id or a class in a javascript file.",
     "bin": {
         "leyla": "./dist/leyla.js"
     },
-    "main": "index.js",
+    "main": "dist/leyla.js",
     "scripts": {
         "install": "tsc",
         "start": " node dist/leyla.js",
@@ -16,16 +16,14 @@
         "javascript",
         "dom",
         "querySelector",
-        "getElementById",
-        "cli",
-        "selector",
-        "auto select"
+        "cli"
     ],
     "author": "",
     "license": "MIT",
     "dependencies": {
         "@types/chalk": "^2.2.0",
         "@types/node": "^16.6.0",
+        "camelcase": "^6.2.0",
         "chalk": "^4.1.2",
         "node-html-parser": "^4.1.3"
     }

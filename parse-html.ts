@@ -1,4 +1,4 @@
-type HTMLNode = {
+export type HTMLNode = {
     tag: string
     classList: Array<string>
     id: string
