@@ -51,19 +51,19 @@ We must enter an html file that actually exists. But for the javascript file, we
 
 Let's type 'test' for the html, and either a js file that exists, or one that doesn't exist, for the javascript question. leyla will create these 'querySelector's for us in the javascript file:
 
-    ```javascript
-    const appDiv = document.querySelector("#app")
-    const logoImg = document.querySelectorAll(".logo")
-    const upperDiv = document.querySelector("#upper")
-    const credentialInputInput = document.querySelectorAll(".credential-input")
-    const lowerDiv = document.querySelector("#lower")
-    const birseyDiv = document.querySelector("#birsey")
-    const baskaseyDiv = document.querySelectorAll(".baskasey")
-    const sitemapDiv = document.querySelector("#sitemap")
-    const linksUl = document.querySelector("#links")
-    const linkLi = document.querySelectorAll(".link")
-    const smallLi = document.querySelectorAll(".small")
-    ```
+```js
+const appDiv = document.querySelector("#app")
+const logoImg = document.querySelectorAll(".logo")
+const upperDiv = document.querySelector("#upper")
+const credentialInputInput = document.querySelectorAll(".credential-input")
+const lowerDiv = document.querySelector("#lower")
+const birseyDiv = document.querySelector("#birsey")
+const baskaseyDiv = document.querySelectorAll(".baskasey")
+const sitemapDiv = document.querySelector("#sitemap")
+const linksUl = document.querySelector("#links")
+const linkLi = document.querySelectorAll(".link")
+const smallLi = document.querySelectorAll(".small")
+```
 
 that's all it does.
 
