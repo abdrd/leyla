@@ -1,7 +1,7 @@
 {
     "name": "leyla",
-    "version": "1.0.3",
-    "description": "a cli that automatically selects all the nodes with an id or a class in a javascript file.",
+    "version": "1.0.4",
+    "description": "a cli that automatically selects all the nodes in an html file",
     "bin": {
         "leyla": "./dist/leyla.js"
     },
