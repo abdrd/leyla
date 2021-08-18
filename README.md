@@ -1,4 +1,4 @@
-### leyla
+# leyla
 
 A cli that automatically selects DOM elements in an HTML file.
 
