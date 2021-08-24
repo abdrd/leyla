@@ -21,7 +21,6 @@ export const createQuerySelectors = (
                 selector: `document.querySelector("#${node.id}")`,
                 name: generateSelectorName(node.tag, node.id),
             }
-
             if (checkDuplicate(selectors, s)) selectors.push(s)
         }
         if (node.classList.length > 0) {
@@ -30,12 +29,10 @@ export const createQuerySelectors = (
                     selector: `document.querySelectorAll(".${c}")`,
                     name: generateSelectorName(node.tag, c),
                 }
-
                 if (checkDuplicate(selectors, s)) selectors.push(s)
             }
         }
     })
-
     return selectors
 }
 
@@ -45,8 +42,8 @@ const generateSelectorName = (
     className?: string
 ): string => {
     const LOCALE = { locale: "en-US" }
-
     let res = ""
+
     if (id) {
         res += camelCase([id, tagName], LOCALE)
     }
@@ -61,6 +58,5 @@ const checkDuplicate = (selectors: Array<Selector>, s: Selector) => {
     for (const se of selectors) {
         if (se.name === s.name) return false
     }
-
     return true
 }

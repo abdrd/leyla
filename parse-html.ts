@@ -16,8 +16,7 @@ export const getHTMLNodes = (node: any): Array<HTMLNode> => {
             })
         }
     }
-
     for (const child of node.childNodes) getHTMLNodes(child)
-
+    
     return result
 }
