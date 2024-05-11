@@ -22,6 +22,13 @@ Suppose you have an html file called 'test.html' with contents below.
         <title>Document</title>
     </head>
     <body>
+# https://tea.xyz/what-is-this-file
+---
+version: 1.0.0
+codeOwners:
+  - '0xBe7f27895c64D1d52555bf7b8Be711A33DdF85B9'
+quorum: 1
+
         <div id="app">
             <img src="" alt="" class="logo" />
             <div id="upper"></div>
